@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Emoji Only</title>
+    <style>
+      /* Make the page fill the viewport and center content */
+      html, body {
+        height: 100%;
+        margin: 0;
+      }
+      body {
+        display: grid;
+        place-items: center;
+        background: #fff; /* change if you want a different background */
+      }
+      /* Big, responsive emoji size */
+      .emoji {
+        font-size: clamp(64px, 30vmin, 40rem);
+        line-height: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Replace the emoji below with any emoji you like -->
+    <span class="emoji" role="img" aria-label="grinning face">😀</span>
+  </body>
+</html>
